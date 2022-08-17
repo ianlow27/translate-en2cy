@@ -1,0 +1,27 @@
+{
+    "name": "ianl28/translate-en2cy",
+    "description": "PHP class to translate text from English to Welsh.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ianl28\\TranslateEn2cy\\": "src/",
+            "Ianl28\\DictionaryEnCy\\": "vendor/ianl28/dictionary-en-cy/src",
+            "Ianl28\\ReorderWordsCy\\": "vendor/ianl28/reorder-words-cy/src",
+            "Ianl28\\ApplyMutationsCy\\": "vendor/ianl28/apply-mutations-cy/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian Low",
+            "email": "ianlow28@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+      "post-status-cmd": "Ianl28\\StarterFiles\\StarterFiles::run" 
+     },
+    "require": {
+        "ianl28/starter-files": "dev-main"
+    }
+}
